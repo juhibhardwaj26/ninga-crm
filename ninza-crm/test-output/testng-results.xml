@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-03T14:46:33 IST" name="Default suite" finished-at="2026-11-03T14:47:31 IST" duration-ms="58502">
+    <groups>
+    </groups>
+    <test started-at="2026-11-03T14:46:33 IST" name="Default test" finished-at="2026-11-03T14:47:31 IST" duration-ms="58502">
+      <class name="contactTest_ninja.contactTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactTest_ninja.contactTest@3c9754d8]" started-at="2026-11-03T14:46:34 IST" name="setUp" finished-at="2026-11-03T14:46:40 IST" duration-ms="6762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="logIn()[pri:0, instance:contactTest_ninja.contactTest@3c9754d8]" started-at="2026-11-03T14:46:40 IST" name="logIn" finished-at="2026-11-03T14:46:41 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="createContactTest()[pri:0, instance:contactTest_ninja.contactTest@3c9754d8]" started-at="2026-11-03T14:46:41 IST" name="createContactTest" finished-at="2026-11-03T14:47:00 IST" duration-ms="19102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:contactTest_ninja.contactTest@3c9754d8]" started-at="2026-11-03T14:47:00 IST" name="logOut" finished-at="2026-11-03T14:47:29 IST" duration-ms="28389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactTest_ninja.contactTest@3c9754d8]" started-at="2026-11-03T14:47:29 IST" name="tearDown" finished-at="2026-11-03T14:47:31 IST" duration-ms="2460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- contactTest_ninja.contactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
