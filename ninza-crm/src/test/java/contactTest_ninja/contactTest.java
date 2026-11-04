@@ -16,14 +16,14 @@ import object_Repository.CampFormPage;
 import object_Repository.ContactFormPge;
 import object_Repository.ContactPage;
 import object_Repository.HomePage;
-import object_Repository.LoginPage;
+
 import object_Repository.SelectCampFromName;
 @Listeners (listenerUtility.ListenerUtility.class)
 public class contactTest extends BaseClass {
 	
 	@Test
 	public void createContactTest() throws IOException, ParseException, InterruptedException {
-		LoginPage lp = new LoginPage(driver);
+		
 		HomePage hp = new HomePage(driver);
 		
 		hp.getCreateCampaignBtn().click();
