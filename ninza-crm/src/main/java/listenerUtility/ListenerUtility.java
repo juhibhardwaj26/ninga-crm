@@ -9,8 +9,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
 import baseUtility.BaseClass;
+import javaUtility.JavaUtility;
 
 
 public class ListenerUtility implements ITestListener {
@@ -18,7 +18,8 @@ public class ListenerUtility implements ITestListener {
 	
 	@Override
 	public void onStart(ITestContext context) {
-		ExtentSparkReporter spark= new ExtentSparkReporter("./reports/.html");
+		String time = JavaUtility.getCurrentTime();
+		ExtentSparkReporter spark= new ExtentSparkReporter("./reports/"+time+".html");
 		spark.config().setDocumentTitle("Ninja-crm report");
 		spark.config().setReportName(context.getName());
 		spark.config().setTheme(Theme.DARK);

@@ -18,4 +18,10 @@ public class SelectCampFromName {
 		sel.selectByValue("campaignName");
 		
 	}
+	
+	@FindBy (xpath = "//button[text()='Select']")
+	private WebElement selectButton;
+	public void clickSelectButton() {
+		selectButton.click();
+	}
 }
